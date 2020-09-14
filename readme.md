@@ -1,4 +1,14 @@
+# DISCLAIMER
+
+This is a snapshot of the following repo that captures the state of the code at the time the following paper was published:
+
+> Kellenberger, B., Morris, D., Tuia, D.: "AIDE: Accelerating Image-Based Ecological Surveys with Interactive Machine Learning". _Methods in Ecology and Evolution_, in press.
+
+This fork has been created for archiving purposes only. To view the official release (including latest updates), please refer to the URL as follows: https://github.com/microsoft/aerial_wildlife_detection.
+
+
 # AIDE: Annotation Interface for Data-driven Ecology
+
 
 AIDE is two things in one: <i>a tool for manually annotating images</i> and <i>a tool for training and running machine (deep) learning models</i>. Those two things are coupled in an <i>active learning loop</i>: the human annotates a few images, the system trains a model, that model is used to make predictions and to select more images for the human to annotate, etc.
    
